@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Odin - Landing page</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
 </head>
 <body>
     <header>
-        <h1>Header Logo</h1>
+        <h1><a href="#main">Trappist-1</a></h1>
         <nav>
             <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
+                <li><a href="#planets">Planets</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#more">Learn More</a></li>
             </ul>
         </nav>
         <main>
-            <div class="welcome">
+            <div id="main">
                 <div>
-                    <h2>This website is awesome</h2>
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                <button>Sign up</button>
+                    <h2>Why is Trappist-1 so awesome?</h2>
+                    <p>Trappist-1 is a nearby <em>ultra-cool red dwarf star</em>, located about 40 light-years away from our Sun. The star system has 7 rocky planets - all of them with the potential of water on their surface, some far more than our Earth. Also, all of the 7 planets orbit inside of the <a href="https://www.nasa.gov/ames/kepler/habitable-zones-of-different-stars" target="_blank"><em>habitable zone</em></a>, not too close but not too far from the star.</p>
+                <button>Learn more</button>
                 </div>
-                <img src="" alt="placeholder">
+                <img src="img/2981_PIA22093-NASA.jpg" alt="placeholder">
             </div>
-            <div class="info">
-                <h2>Some random information.</h2>
+            <div id="planets">
+                <h2>Planets of system Trappist-1</h2>
                 <div>
                     <img src="" alt="placeholder">
                     <figcaption></figcaption>
@@ -44,13 +45,13 @@
                     <figcaption></figcaption>
                 </div>
             </div>
-            <div class="quote">
+            <div id="video">
                 <figure>
                     <blockquote>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
                     <figcaption><cite>-Thor, God of Thunder</cite></figcaption>
                 </figure>
             </div>
-            <div class="action">
+            <div id="more">
                 <div>
                     <h3>Call to action! It's time!</h3>
                     <p>Sign up for our product by clicking that button right over there!</p>
