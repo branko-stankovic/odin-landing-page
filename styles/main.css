@@ -1,16 +1,17 @@
+
 * {
     margin: 0;
     padding: 0;
+    /* outline: 1px dotted red; */
 }
-
-body {
-    max-width: 1920px;
-    margin: 0 auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
-
+/*
 .dark-background {
     background-color: #1f2937;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .main-text {
@@ -22,11 +23,6 @@ body {
 .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.header-logo-text {
-    font-size: 24px;
-    color: #f9faf8;
 }
 
 .button-color, .call-to-action {
@@ -47,4 +43,67 @@ body {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+*/
+
+body {
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 60px;
+    background-color: #1f2937;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h1 a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    font-size: 26px;
+    margin-left: -4px;
+}
+
+ul a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+footer {
+    height: 60px;
+    background-color: #1f2937;
+    text-align: center;
+    font-size: 16px;
+    line-height: 60px;
+    color: #e5e7eb;
 }
