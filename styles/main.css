@@ -4,47 +4,6 @@
     padding: 0;
     /* outline: 1px dotted red; */
 }
-/*
-.dark-background {
-    background-color: #1f2937;
-}
-
-.header-logo-text {
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-.main-text {
-    font-size: 48px;
-    font-weight: bold;
-    color: #f9faf8;
-}
-
-.secondary-text {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.button-color, .call-to-action {
-    background-color: #3882f6;
-}
-
-.information-header-text {
-    font-size: 36px;
-    font-weight: bold;
-    color: #1f2937;
-}
-
-.quote-background {
-    background-color: #e5e7eb;
-}
-
-.quote-text {
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
-}
-*/
 
 body {
     max-width: 2000px;
@@ -138,6 +97,7 @@ button {
     border-radius: 6px;
     font-size: 14px;
     border-color: #e5e7eb;
+    text-decoration: none;
 }
 
 button:hover {
